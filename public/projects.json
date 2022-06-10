@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "BD Tools",
+        "shortDescription": "This website is designed for a manufacturing company.",
+        "bigDescription1": "This website is designed for both customers and owners (normal users and admins).",
+        "bigDescription2": "Customers can check the whole list of tools without login or sign up. They need to sign into their account to purchase items and pay for the same. They can post their reviews, check their orders and update their profile as well.",
+        "bigDescription3": "Admins have the access to add or remove any item, check the whole list of users, make admin or remove any user. Use the follow credentials to experience admin role: email: bulbul@khan.com, password: 123456",
+        "techUsed": "React JS, React Router and other React libraries, Tailwind CSS, DaisyUI, Firebase, Axios, Node JS, Express JS, MongoBD, Heroku, Stripe, JWT.",
+        "liveSite": "https://manufacturer-website-4e012.web.app/",
+        "clientCodeLink": "https://github.com/pushpitanandy/manufacturer-website-client-side",
+        "serverCodeLink": "https://github.com/pushpitanandy/manufacturer-website-server-side",
+        "photo1": "https://i.ibb.co/T1Xt15z/BdTools1.jpg",
+        "photo2": "https://i.ibb.co/dg2VGKN/BdTools2.jpg",
+        "photo3": "https://i.ibb.co/dPC6RLS/BdTools3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Perfumes United",
+        "shortDescription": "This website is designed for an inventory manager.",
+        "bigDescription1": "This website is designed for inventory managers who can update information of their products.",
+        "bigDescription2": "He or she can update the quantity of an existing product, add or remove products as well.",
+        "bigDescription3": "He or she can view and manage all listed products and can separately view and manage his or her own listed products.",
+        "techUsed": "React JS, React Router, React Bootstrap and other React libraries, Firebase, Node JS, Express JS, MongoBD, Heroku.",
+        "liveSite": "https://inventory-management-web-bb7cf.web.app/",
+        "clientCodeLink": "https://github.com/pushpitanandy/warehouse-management-website-client-side",
+        "serverCodeLink": "https://github.com/pushpitanandy/warehouse-management-website-server-side",
+        "photo1": "https://i.ibb.co/f8psxd6/Perfumes1.jpg",
+        "photo2": "https://i.ibb.co/3fXF9LC/Perfumes2.jpg",
+        "photo3": "https://i.ibb.co/s17zDYp/Perfumes3.jpg"
+    }
+]

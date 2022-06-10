@@ -3,6 +3,7 @@ import { Button, Col, Row } from 'react-bootstrap';
 import developerPhoto from '../../images/Background.png';
 import { saveAs } from "file-saver";
 import Projects from '../Projects/Projects';
+import AboutMe from '../AboutMe/AboutMe';
 
 const Home = () => {
 
@@ -12,20 +13,21 @@ const Home = () => {
 
     return (
         <div>
-            <div className='container-fluid m-5 p-5'>
+            <div className='container-fluid m-5'>
                 <Row className='justify-content-center align-items-center'>
                     <Col xs={12} md={6} className='text-left'>
-                        <h1>Hi! I'm Pushpita</h1>
-                        <h5>Full Stack Web Developer</h5>
+                        <h1 className='fw-bolder'>Hi! I'm Pushpita</h1>
+                        <h3 className='fw-bold'>Full Stack Web Developer</h3>
                         <p>Looking for opportunities to develop various Websites</p>
                         <br />
                         <Button onClick={handleDownloadResume} variant="dark">Download My Resume</Button>
                     </Col>
                     <Col xs={12} md={6}>
-                        <img src={developerPhoto} alt="" />
+                        <img width='250px' src={developerPhoto} alt="" />
                     </Col>
                 </Row>
             </div>
+            <AboutMe></AboutMe>
             <Projects></Projects>
         </div>
     );

@@ -7,7 +7,7 @@ const Projects = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch('projects.json')
+        fetch('https://aqueous-island-27309.herokuapp.com/projects')
             .then(res => res.json())
             .then(data => setProjects(data));
     }, [])
@@ -18,7 +18,7 @@ const Projects = () => {
             <Row xs={1} md={2} className="g-4 m-5">
                 {
                     projects.map(project => <Project
-                        key={project.id}
+                        key={project._id}
                         project={project}
                     ></Project>)
                 }

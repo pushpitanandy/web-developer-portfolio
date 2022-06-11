@@ -4,6 +4,7 @@ import developerPhoto from '../../images/Background.png';
 import { saveAs } from "file-saver";
 import Projects from '../Projects/Projects';
 import AboutMe from '../AboutMe/AboutMe';
+import ContactMe from '../ContactMe/ContactMe';
 
 const Home = () => {
 
@@ -29,6 +30,7 @@ const Home = () => {
             </div>
             <AboutMe></AboutMe>
             <Projects></Projects>
+            <ContactMe></ContactMe>
         </div>
     );
 };

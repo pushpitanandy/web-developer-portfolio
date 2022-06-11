@@ -7,7 +7,7 @@ const Project = ({ project }) => {
     const navigate = useNavigate();
 
     const navigateToDetail = id => {
-        navigate(`https://aqueous-island-27309.herokuapp.com/projects/${id}`);
+        navigate(`/projects/${id}`);
     }
 
     return (
